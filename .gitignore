@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# If using Django migrations
+*/migrations/*
+
+# If using PostgreSQL
+*.pgdata
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.secret
+config/settings/local.py
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Editor and OS-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and debugging
+logs/
+*.log
+*.out
+*.pid
+
+# Coverage and test reports
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.pytest_cache/
+junit.xml
+
+# Celery and background tasks
+celerybeat-schedule
+celerybeat.pid
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# pipenv, poetry
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# PyCharm
+*.iml
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS files
+._*
+DS_Store
